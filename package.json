@@ -14,8 +14,16 @@
   },
   "dependencies": {
     "@js-bits/dom-parser": "^0.1.0",
+    "hast-util-parse-selector": "^3.1.0",
+    "hast-util-select": "^5.0.1",
     "hyntax": "^1.1.9",
     "jsdom": "^19.0.0",
-    "title-case": "^3.0.3"
+    "rehype-parse": "^8.0.3",
+    "rehype-stringify": "^9.0.2",
+    "title-case": "^3.0.3",
+    "unified": "^10.1.1",
+    "unist-util-is": "^5.1.1",
+    "unist-util-visit": "^4.1.0",
+    "vfile-reporter": "^7.0.3"
   }
 }

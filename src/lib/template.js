@@ -18,8 +18,7 @@
 
 <!-- wp:list -->
 <ul>
-// loop through charges list & output li elements
-${list.map((item) => `<li>${item}</li>`)}
+${list.map((item) => `<li>${item}</li>`).join('\n')}
 </ul>
 <!-- /wp:list -->
 
